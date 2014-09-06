@@ -40,7 +40,7 @@ do
         
 
     	 
-#AICP BUILD ENDS
+
 
     elif [ "$opt" = "Frameworks_base" ]; then
         echo -e "\e[91m***************************************************"
@@ -63,7 +63,7 @@ do
         fi
         
 	
-#SPIRIT BUILD ENDS
+
 
     elif [ "$opt" = "Packages_apps_Settings" ]; then
         echo -e "\e[91m***********************************************************"
@@ -86,7 +86,7 @@ do
         fi
         
 
-#AOGP Build Ends
+
 	
     elif [ "$opt" = "Vendor_cm" ]; then
         echo -e "\e[91m**********************************************"
@@ -110,7 +110,7 @@ do
         fi
         
 
-#Nameless Build Ends
+
 
     elif [ "$opt" = "Build" ]; then
         echo -e "\e[91m**********************************************"
@@ -132,7 +132,7 @@ do
         cd ../../
         fi
 
-#Carbon build Ends
+
 
     fi
 done
