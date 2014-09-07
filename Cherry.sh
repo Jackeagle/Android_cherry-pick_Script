@@ -35,6 +35,7 @@ do
         elif [[ $answer = n ]] ; then
         git remote add origin https://github.com/AOGP/android.git
         git fetch origin
+        git push -u origin HEAD:kitkat
         cd ../../
         fi
         
@@ -59,6 +60,7 @@ do
         elif [[ $answer = n ]] ; then
         git remote add origin https://github.com/AOGP/android_frameworks_base.git
         git fetch origin
+        git push -u origin HEAD:kitkat
         cd ../../../
         fi
         
@@ -82,6 +84,7 @@ do
         elif [[ $answer = n ]] ; then
         git remote add origin https://github.com/AOGP/android_packages_apps_Settings.git
         git fetch origin
+        git push -u origin HEAD:kitkat
         cd ../../../../
         fi
         
@@ -129,6 +132,7 @@ do
         elif [[ $answer = n ]] ; then
         git remote add origin https://github.com/AOGP/android_build.git
         git fetch origin
+        git push -u origin HEAD:kitkat
         cd ../../
         fi
 
